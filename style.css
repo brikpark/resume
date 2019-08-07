@@ -1,14 +1,15 @@
 *
 {
-	margin-top: 5px;
-	margin-left: 3px;
-	margin-right: 3px;
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
 	padding: 0;
 }
 .main-nav
 {
 	float: right;
 	list-style: none;
+	margin-top: 35px;
 }
 
 .main-nav li
@@ -20,9 +21,9 @@
 {
 	color: black;
 	text-decoration: none;
-	padding: 6px;
+	padding: 8px;
 	font-family: "BigNoodleTitling", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	margin: 6px;
 	
@@ -30,15 +31,15 @@
 
 .main-nav li.active a
 {
-	border: 1px solid white;
+	border: 2px solid white;
 }
 
 .logo img
 {
-	width: 45px;
+	width: 55px;
 	height: auto;
 	margin-bottom: 30px;
-	padding: 0px;
+	padding: 5px;
 	float: left
 }
 
@@ -51,16 +52,6 @@
 	margin-right: 3px;
 	margin-bottom: 100px;
 }
-.container
-{
-	position:relative;
-	text-align:center;
-	color:white;
-}
-.slide
-{
-	margin-bottom: 50px;
-}
 .text1
 {
 	text-align: left;
@@ -68,12 +59,23 @@
 	top: 145px;
 	left:50px;
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 }
 h1
 {
 	font-family: "BigNoodleTitling";
 	text-transform: uppercase;
+}
+.container
+{
+	position:relative;
+	text-align: center;
+	color:white;
+}
+
+.slide
+{
+	margin-bottom: 50px;
 }
 h2
 {
@@ -106,4 +108,9 @@ h3
 	font-family:"";
 	font-size: 10px;
 	margin:0;
+}
+.btn
+{
+	display: block;
+	background-color: white;
 }
