@@ -124,3 +124,27 @@ button
 {
 	font-size:15px;
 }
+.eduheader
+{
+	margin:0;
+	padding:0;
+	text-align: left;
+}
+.school1
+{
+	text-align: left;
+}
+.text4
+{
+	margin-top:50px;
+	font-size: 9px;
+	text-align: left;
+
+}
+.skilltxt
+{
+	text-align: left;
+	color: gray;
+	font-size: 9px;
+	margin-bottom: 80px;
+}
