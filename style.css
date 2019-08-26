@@ -6,8 +6,8 @@
 header
 {
 	margin-top: 10px;
-	margin-left: 8px;
-	margin-right: 8px;
+	margin-left: 20px;
+	margin-right: 20px;
 	background-image:url();
 	height:10vh;
 	background-size:cover;
@@ -63,10 +63,10 @@ header
 {
 	text-align: left;
 	position: absolute;
-	top: 145px;
-	left:50px;
+	top: 20%;
+	left: 10%;
 	color: white;
-	font-size: 30px;
+	font-size: 210%;
 }
 h1
 {
@@ -83,7 +83,7 @@ h1
 .slide
 {
 	margin-top: 10px;
-	margin-left: 16px;
+	margin-left: 33px;
 	margin-right: 8px;
 	margin-bottom: 50px;
 }
@@ -92,6 +92,35 @@ h2
 	font-family:"Tahoma";
 	letter-spacing: 0.5px;
 	text-transform: none;
+}
+.captions
+{
+	font-family:"Tahoma";
+	font-size: 20px;
+	letter-spacing: 0.5px;
+	text-transform: none;
+	margin-top: 10px;
+	margin-bottom: 120px;
+}
+.left
+{
+	float:left;
+	position:relative;
+	left:10%;
+	margin-left:8px;
+}
+.center
+{
+	float:left;
+	position:relative;
+	left:37%;
+}
+.right
+{
+	float:right;
+	position:relative;
+	right:10%;
+	margin-right:50px;
 }
 .text2
 {
@@ -120,13 +149,14 @@ h2
 }
 .edutxt
 {
+	margin-top: 30px;
 	text-align: center;
 	font-size: 20px;
 }
 h3
 {
 	font-family:"";
-	font-size: 10px;
+	font-size: 15px;
 
 }
 button
@@ -184,15 +214,107 @@ color:black;
 	margin-bottom: 20px;
 	text-align:left;
 }
-.jobpage
-{
-	margin:20px;
-}
 .edupage
 {
-	margin:20px;
+	margin-left:4%;
+	margin-right:4%;
 }
-.projectpage
+.job1
+{
+	margin-left:20px;
+	margin-bottom:50px;
+}
+.job2
+{
+	margin-left:20px;
+	margin-bottom:50px;
+}
+.job3
+{
+	margin-left:20px;
+	margin-bottom:50px;
+	
+}
+.school1
+{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.school2
+{
+	margin-bottom:50px;
+}
+.job1location
 {
 	margin:20px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.job2location
+{
+	margin:20px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.job3location
+{
+	margin:20px;
+	margin-bottom:50px;
+	text-align:center;
+}
+.projleft
+{
+	float:left;
+	position:relative;
+	left:3%;
+	margin-left:8%;
+}
+.projright
+{
+	float:right;
+	position:relative;
+	right:18%;
+	margin-right:1.5%;
+}
+figcaption
+{
+	color: black;
+	text-decoration: none;
+	padding: 8px;
+	font-family: "BigNoodleTitling", sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.projcaption
+{
+	color: black;
+	text-decoration: none;
+	padding: 8px;
+	font-family: "BigNoodleTitling", sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.projslide
+{
+	margin-top: 5%;
+	margin-left: 4.5%;
+	margin-bottom: 4%;
+}
+#image1
+{
+	margin-right:4%;
+}
+#interestfig
+{
+	margin-left:20px;
+}
+.abtme
+{
+	margin-top: 2%;
+	margin-bottom: 50px;
+}
+.projmarg
+{
+	margin-left: 4%;
+	margin-right: 4%;
 }
